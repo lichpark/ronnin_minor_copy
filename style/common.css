@@ -1,0 +1,491 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.text-block._14px {
+  font-size: 1.1vw;
+}
+
+.link.w--current {
+  background-size: 100%;
+}
+
+.social-media.small {
+  width: 1.3vw;
+}
+.social-media {
+  width: 2vw;
+}
+
+.div-block-2 {
+  grid-column-gap: 0vw;
+  grid-row-gap: 0vw;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10.5vw;
+  padding-right: 10vw;
+  display: flex;
+}
+
+.h1-250px.center,
+.h1-250px.mobile {
+  z-index: -1;
+  text-align: center;
+  line-height: 0.8;
+  position: relative;
+}
+
+body {
+  background-color: var(--black);
+  color: var(--white);
+  font-family: Arima, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Vifelliademo, sans-serif;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Vifelliademo, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Vifelliademo, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+h4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: Vifelliademo, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Vifelliademo, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Vifelliademo, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+p {
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+strong {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  font-weight: 700;
+  display: block;
+}
+
+.padding-global {
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+}
+
+.padding-global.left-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.padding-global.absolute {
+  position: absolute;
+  inset: 0%;
+}
+
+.padding-global._0-both {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.padding-global.flex {
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+  display: flex;
+}
+
+.padding-global.relative {
+  z-index: 0;
+  position: relative;
+}
+
+.padding-global.footer {
+  grid-column-gap: 5vh;
+  grid-row-gap: 5vh;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5vh;
+  display: flex;
+}
+
+.h1-250px {
+  text-transform: uppercase;
+  font-size: 17.647vw;
+}
+
+.h1-250px.center,
+.h1-250px.mobile {
+  z-index: -1;
+  text-align: center;
+  line-height: 0.8;
+  position: relative;
+}
+
+.h2-70px {
+  text-transform: uppercase;
+  font-size: 64px;
+  line-height: 0.9;
+}
+
+.h2-170px {
+  z-index: 1;
+  text-transform: uppercase;
+  font-size: 11.9vw;
+  line-height: 0.8;
+  position: relative;
+}
+
+.h2-170px.no-caps {
+  text-transform: none;
+}
+
+.h2-170px.yellow {
+  color: var(--brass);
+}
+
+.h2-170px.small {
+  font-size: 11vw;
+  line-height: 0.9;
+}
+
+.h2-170px.center {
+  text-align: center;
+}
+
+.h2-170px.mobile {
+  display: none;
+}
+
+.h3-20px {
+  font-family: Arima, sans-serif;
+  font-size: 20px;
+}
+
+.h3-20px.new-font {
+  text-transform: uppercase;
+  font-family: Vifelliademo, sans-serif;
+}
+
+.h3-20px.bold {
+  font-weight: 600;
+}
+
+.h2-120px {
+  text-transform: uppercase;
+  font-size: 8.4vw;
+}
+
+.h2-120px.right {
+  text-align: right;
+}
+
+.h3-14px {
+  font-family: Arima, sans-serif;
+  font-size: 14px;
+}
+
+.p-18px {
+  font-size: 1.26vw;
+  line-height: 1.2;
+}
+
+.p-18px._90 {
+  z-index: 1;
+  max-width: 91%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2vw;
+  position: relative;
+}
+
+.right {
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  overflow: hidden;
+}
+
+.p-14px {
+  font-family: Arima, sans-serif;
+  font-size: 1vw;
+  line-height: 1.2;
+}
+
+.p-14px._50 {
+  width: 39%;
+  height: auto;
+  margin-left: auto;
+  margin-right: 3rem;
+}
+
+.p-14px.ff {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.p-14px.link {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.p-14px.link:hover {
+  text-decoration: underline;
+}
+
+.p-12px {
+  font-family: Arima, sans-serif;
+  font-size: 0.9vw;
+  line-height: 1.1;
+}
+
+.p-12px._700-justified {
+  text-align: justify;
+  font-weight: 700;
+}
+
+.p-12px._700-justified-white {
+  color: #f7f3fa;
+  text-transform: uppercase;
+}
+
+.p-12px._180px {
+  width: 12.6vw;
+  position: absolute;
+  inset: auto 1vw 1vw auto;
+}
+
+.p-12px.all-caps {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.p-12px.all-caps._120px {
+  width: 10vw;
+}
+
+.p-12px.all-caps.mix-match {
+  width: 9.7vw;
+  line-height: 1.3;
+}
+
+.p-12px.all-caps.top-20px {
+  margin-top: 1.4vw;
+}
+
+.p-12px.black {
+  color: var(--black);
+}
+
+.p-12px.dining {
+  color: var(--red);
+  text-align: left;
+  margin-right: -24%;
+}
+
+.p-12px.negative {
+  text-align: right;
+  margin-left: 0.5vw;
+}
+
+.ronin-hero-bg {
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  bottom: 0;
+  left: 0%;
+  right: 0%;
+}
+
+.full-screen-video {
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay-40 {
+  background-image: linear-gradient(#0006, #0006);
+  position: absolute;
+  inset: 0%;
+}
+
+a {
+  background-color: #0000;
+}
+
+._100--image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  display: inline-block;
+}
+img {
+  border: 0;
+}
+.center {
+  text-align: center;
+}
+
+.bg-image-wrapper {
+  z-index: -1;
+  background-color: #000;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  inset: 0%;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "Arima";
+  src: url("https://cdn.prod.website-files.com/668e56004bfe9b6b63311d8d/668e57187943f3ffb11473d2_Arima-Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Arima";
+  src: url("https://cdn.prod.website-files.com/668e56004bfe9b6b63311d8d/668e5718302cb0c61c05a011_Arima-ExtraLight.woff2")
+    format("woff2");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Arima";
+  src: url("https://cdn.prod.website-files.com/668e56004bfe9b6b63311d8d/668e5718b21838ec1f88f53f_Arima-Light.woff2")
+    format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Arima";
+  src: url("https://cdn.prod.website-files.com/668e56004bfe9b6b63311d8d/668e57188bbef917ac604388_Arima-SemiBold.woff2")
+    format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Arima";
+  src: url("https://cdn.prod.website-files.com/668e56004bfe9b6b63311d8d/668e57182e80589563898013_Arima-Medium.woff2")
+    format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Arima";
+  src: url("https://cdn.prod.website-files.com/668e56004bfe9b6b63311d8d/668e56c58195c64c638914da_Arima-VariableFont_wght.woff2")
+      format("woff2"),
+    url("https://cdn.prod.website-files.com/668e56004bfe9b6b63311d8d/668e5719c1aad21761f7f6d9_Arima-Regular.woff2")
+      format("woff2");
+  font-weight: 100 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Arima";
+  src: url("https://cdn.prod.website-files.com/668e56004bfe9b6b63311d8d/668e5718b71db2e13ab52dbf_Arima-Thin.woff2")
+    format("woff2");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Vifelliademo";
+  src: url("https://cdn.prod.website-files.com/668e56004bfe9b6b63311d8d/668e576ad848b3122ed495c7_vifelliademo.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

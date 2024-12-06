@@ -1,0 +1,11 @@
+:root {
+  --black: black;
+  --white: #e7dfd4;
+  --brass: #c39866;
+  --red: #a11c1c;
+  --pink: #dc5f61;
+  --bright-pink: #de6668;
+
+  /* font */
+  --font-sans: sans-serif;
+}
